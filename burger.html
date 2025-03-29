@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        img {
+            width: 10cm;
+            height: 10cm; 
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .content{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 15cm;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+         .contents {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.6); 
+            backdrop-filter: blur(10px);
+            position: absolute;
+            width: 100%;
+            z-index: 10;
+        }
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+        h1, h3, a {
+            color: rgb(84, 4, 67);
+        }
+        .header {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background: url('cookbook.jpg') no-repeat center center/cover;
+        }
+        p {
+            color: black;
+            font-size: x-large;
+            font-family: 'Lucida Sans', sans-serif;
+        }
+        .footer {
+            text-align: center;
+            font-size: medium;
+            color: rgb(88, 88, 129);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div>
+            <h1>
+                <img src="logo.png" style="height: 2cm; width: 2cm;" class="rounded-circle"><strong> HOSTEL BITES</strong>
+            </h1>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html"><h3>Home  | </h3></a></li>
+                <li class="nav-item"><a class="nav-link" href="signin.html"><h3>Sign In</h3></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="header"></div>
+    <div class="content">
+        <h1 style="font-size: xx-large;"><strong>Fun Facts About Burgers</strong></h1>
+        <p>The hamburger originated in the 19th or early 20th century and has since become one of the most popular fast foods worldwide. The largest hamburger ever made weighed over 2,000 pounds! 🍔</p>
+    </div>
+    <div class="contents">
+        <img src="burger.jpg" alt="Burger">
+        <h3>Ingredients:</h3>
+        <ul>
+            <li>1 burger bun</li>
+            <li>1 burger patty (vegetarian or meat-based)</li>
+            <li>1 slice of cheese</li>
+            <li>1 lettuce leaf</li>
+            <li>1 slice of tomato</li>
+            <li>1 slice of onion</li>
+            <li>1 tbsp mayonnaise or ketchup</li>
+            <li>Salt and pepper to taste</li>
+        </ul>
+        <h3>Instructions:</h3>
+        <ul>
+            <li>Toast the burger bun on a pan.</li>
+            <li>Cook the burger patty until golden brown.</li>
+            <li>Place the patty on the bottom bun and add cheese.</li>
+            <li>Layer with lettuce, tomato, and onion slices.</li>
+            <li>Spread mayonnaise or ketchup on the top bun.</li>
+            <li>Assemble the burger and enjoy your delicious homemade treat!</li>
+        </ul>
+    </div>
+</body>
+</html>
